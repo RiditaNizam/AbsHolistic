@@ -16,7 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Food.FoodActivity"></activity>
+        <activity android:name=".Food.FoodActivity" />
+        <activity android:name=".Health.HealthActivity" />
+        <activity android:name=".Body.BodyActivity"></activity>
     </application>
 
 </manifest>

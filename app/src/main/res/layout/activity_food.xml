@@ -8,6 +8,7 @@
 
     <Button
         android:id="@+id/mealideas"
+        android:onClick="sendMessage"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:background="@drawable/foodbutton"
@@ -23,7 +24,44 @@
         android:padding="15dp"
         android:text="Recipes" />
 
+    <Button
+        android:id="@+id/grocerylist"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/recipes"
+        android:background="@drawable/foodbutton"
+        android:padding="15dp"
+        android:text="Grocery List" />
 
-    
+    <Button
+        android:id="@+id/foodordering"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/recipes"
+        android:background="@drawable/foodbutton"
+        android:padding="15dp"
+        android:text="Food Ordering" />
+
+    <Button
+        android:id="@+id/mealreminders"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/foodordering"
+        android:background="@drawable/foodbutton"
+        android:padding="15dp"
+        android:text="Meal Reminders" />
+
+    <Button
+        android:id="@+id/restaurantmenusuggest"
+        android:layout_width="150dp"
+        android:layout_alignParentRight="true"
+        android:layout_height="150dp"
+        android:layout_below="@+id/foodordering"
+        android:background="@drawable/foodbutton"
+        android:padding="15dp"
+        android:text="Restaurant & Menu Suggestions" />
+
+
 
 </RelativeLayout>

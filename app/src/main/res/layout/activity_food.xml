@@ -60,7 +60,7 @@
         android:layout_below="@+id/foodordering"
         android:background="@drawable/foodbutton"
         android:padding="15dp"
-        android:text="Restaurant & Menu Suggestions" />
+        android:text="Restaurant and Menu Suggestions" />
 
 
 

@@ -1,33 +1,45 @@
 package com.example.android.absholistic.Health;
 
 import android.app.Activity;
-import android.support.v7.app.AppCompatActivity;
+import android.app.Application;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
+import com.example.android.absholistic.R;
+
+import java.util.ArrayList;
+import java.util.List;
+
+
 public class HealthActivity extends Activity {
-    private RecyclerView mRecyclerView;
-    private RecyclerView.Adapter mAdapter;
-    private RecyclerView.LayoutManager mLayoutManager;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.my_activity);
-        mRecyclerView = (RecyclerView) findViewById(R.id.my_recycler_view);
+        setContentView(R.layout.activity_health);
 
-        // use this setting to improve performance if you know that changes
-        // in content do not change the layout size of the RecyclerView
-        mRecyclerView.setHasFixedSize(true);
+        List<Book> list = new ArrayList<>();
 
-        // use a linear layout manager
-        mLayoutManager = new LinearLayoutManager(this);
-        mRecyclerView.setLayoutManager(mLayoutManager);
+        Book mainBook = new Book();
+        mainBook.setTitle("I will be a great programmer");
+        list.add(mainBook);
+     
 
-        // specify an adapter (see also next example)
-        mAdapter = new MyAdapter(myDataset);
-        mRecyclerView.setAdapter(mAdapter);
+        //TODO: make network request and get list of data.
+
+        RecyclerView bookListView = (RecyclerView) findViewById(R.id.bookslist_rv);
+        bookListView.setLayoutManager(new LinearLayoutManager(getApplicationContext()));  //Vertical by default
+
+        BooksAdapter adapter = new BooksAdapter(list);
+
+        bookListView.setAdapter(adapter);
+
+
+        //Todo: once you receive data update your adapter and notify datasetchanged.
+
+
     }
 
 }

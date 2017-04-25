@@ -18,7 +18,15 @@
         </activity>
         <activity android:name=".Food.FoodActivity" />
         <activity android:name=".Health.HealthActivity" />
-        <activity android:name=".Body.BodyActivity"></activity>
+        <activity android:name=".Body.BodyActivity" />
+        <activity android:name=".Activity.ActivityActivity" />
+        <activity android:name=".Calories.CaloriesActivity" />
+        <activity android:name=".Diet.DietActivity" />
+        <activity android:name=".Effort.EffortActivity" />
+        <activity android:name=".Energy.EnergyActivity" />
+        <activity android:name=".Fat.FatActivity" />
+        <activity android:name=".Fitness.FitnessActivity" />
+        <activity android:name=".Weight.WeightActivity"></activity>
     </application>
 
 </manifest>

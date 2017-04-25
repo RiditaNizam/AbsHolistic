@@ -20,98 +20,97 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="100dp"
         android:layout_marginTop="90dp"
-        android:text="food"
         android:background="@drawable/foodbutton"
-        />
+        android:text="Food" />
 
     <Button
-        android:text="Health"
         android:id="@+id/healthbutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="170dp"
         android:layout_marginTop="90dp"
         android:background="@drawable/healthbutton"
-        />
+        android:text="Health" />
 
-    <ImageButton
+    <Button
         android:id="@+id/bodybutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="220dp"
         android:layout_marginTop="120dp"
-        
-        android:src="@drawable/bodybutton" />
+        android:background="@drawable/bodybutton"
+        android:text="Body" />
 
-    <ImageButton
+    <Button
         android:id="@+id/activitybutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="250dp"
         android:layout_marginTop="160dp"
-        android:src="@drawable/activitybutton" />
+        android:background="@drawable/activitybutton"
+        android:text="Activity" />
 
-    <ImageButton
+    <Button
         android:id="@+id/caloriesbutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="270dp"
         android:layout_marginTop="200dp"
-        
-        android:src="@drawable/caloriesbutton" />
+        android:background="@drawable/caloriesbutton"
+        android:text="Calories" />
 
-    <ImageButton
+    <Button
         android:id="@+id/dietbutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="240dp"
         android:layout_marginTop="260dp"
-        
-        android:src="@drawable/dietbutton" />
+        android:background="@drawable/dietbutton"
+        android:text="Diet" />
 
-    <ImageButton
+    <Button
         android:id="@+id/effortbutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="180dp"
         android:layout_marginTop="310dp"
-        
-        android:src="@drawable/effortbutton" />
+        android:background="@drawable/effortbutton"
+        android:text="Effort" />
 
-    <ImageButton
+    <Button
         android:id="@+id/energybutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="120dp"
         android:layout_marginTop="310dp"
-        
-        android:src="@drawable/energybutton" />
+        android:background="@drawable/energybutton"
+        android:text="Energy" />
 
-    <ImageButton
+    <Button
         android:id="@+id/fatbutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="60dp"
         android:layout_marginTop="280dp"
-        
-        android:src="@drawable/fatbutton" />
+        android:background="@drawable/fatbutton"
+        android:text="Fat" />
 
-    <ImageButton
+    <Button
         android:id="@+id/fitnessbutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="210dp"
-        
-        android:src="@drawable/fitnessbutton" />
+        android:background="@drawable/fitnessbutton"
+        android:text="Fitness" />
 
-    <ImageButton
+    <Button
         android:id="@+id/weightbutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="140dp"
-        
-        android:src="@drawable/weightbutton" />
+        android:text="Weight"
+        android:background="@drawable/weightbutton" />
 
 </RelativeLayout>

@@ -5,7 +5,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-
 import com.example.android.absholistic.Activity.ActivityActivity;
 import com.example.android.absholistic.Body.BodyActivity;
 import com.example.android.absholistic.Calories.CaloriesActivity;
@@ -25,11 +24,38 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button button = (Button) findViewById(R.id.foodbutton);
-        button.setOnClickListener(MainActivity.this);
+        Button foodbutton = (Button) findViewById(R.id.foodbutton);
+        foodbutton.setOnClickListener(MainActivity.this);
 
-        Button health = (Button) findViewById(R.id.healthbutton);
-        health.setOnClickListener(MainActivity.this);
+        Button healthbutton = (Button) findViewById(R.id.healthbutton);
+        healthbutton.setOnClickListener(MainActivity.this);
+
+        Button bodybutton = (Button) findViewById(R.id.bodybutton);
+        bodybutton.setOnClickListener(MainActivity.this);
+
+        Button activitybutton = (Button) findViewById(R.id.activitybutton);
+        activitybutton.setOnClickListener(MainActivity.this);
+
+        Button caloriesbutton = (Button) findViewById(R.id.caloriesbutton);
+        caloriesbutton.setOnClickListener(MainActivity.this);
+
+        Button dietbutton = (Button) findViewById(R.id.dietbutton);
+        dietbutton.setOnClickListener(MainActivity.this);
+
+        Button effortbutton = (Button) findViewById(R.id.effortbutton);
+        effortbutton.setOnClickListener(MainActivity.this);
+
+        Button energybutton = (Button) findViewById(R.id.energybutton);
+        energybutton.setOnClickListener(MainActivity.this);
+
+        Button fatbutton = (Button) findViewById(R.id.fatbutton);
+        fatbutton.setOnClickListener(MainActivity.this);
+
+        Button fitnessbutton = (Button) findViewById(R.id.fitnessbutton);
+        fitnessbutton.setOnClickListener(MainActivity.this);
+
+        Button weightbutton = (Button) findViewById(R.id.weightbutton);
+        weightbutton.setOnClickListener(MainActivity.this);
 
     }
 

@@ -1,9 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.android.absholistic.Activity.ActivityActivity">
+    tools:context="com.example.android.absholistic.Food.FoodActivity">
 
-</android.support.constraint.ConstraintLayout>
+    <Button
+        android:id="@+id/reminders"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/activitybutton"
+        android:onClick="sendMessage"
+        android:padding="15dp"
+        android:text="Reminders" />
+
+    <Button
+        android:id="@+id/planner"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/reminders"
+        android:background="@drawable/activitybutton"
+        android:onClick="sendMessage"
+        android:padding="15dp"
+        android:text="Planner" />
+
+    <Button
+        android:id="@+id/videos"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_toRightOf="@id/planner"
+        android:background="@drawable/activitybutton"
+        android:onClick="sendMessage"
+        android:padding="15dp"
+        android:text="Videos" />
+
+    <Button
+        android:id="@+id/exerciseequipment"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_toRightOf="@id/planner"
+        android:layout_below="@id/videos"
+        android:background="@drawable/activitybutton"
+        android:onClick="sendMessage"
+        android:padding="15dp"
+        android:text="Exercise Equipment" />
+
+</RelativeLayout>

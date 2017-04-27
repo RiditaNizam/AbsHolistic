@@ -6,4 +6,13 @@
     android:layout_height="match_parent"
     tools:context="com.example.android.absholistic.Fat.FatActivity">
 
+    <Button
+        android:id="@+id/anatomyandphysiology"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/fatbutton"
+        android:onClick="sendMessage"
+        android:padding="15dp"
+        android:text="Anatomy and Physiology" />
+
 </android.support.constraint.ConstraintLayout>

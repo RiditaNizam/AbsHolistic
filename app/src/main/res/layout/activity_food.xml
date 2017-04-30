@@ -16,13 +16,13 @@
         android:text="Meal Ideas" />
 
     <Button
-        android:id="@+id/recipes"
+        android:id="@+id/supplements"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_alignParentRight="true"
         android:background="@drawable/foodbutton"
         android:padding="15dp"
-        android:text="Recipes" />
+        android:text="Supplements" />
 
     <Button
         android:id="@+id/grocerylist"

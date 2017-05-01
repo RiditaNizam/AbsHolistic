@@ -3,11 +3,37 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@color/lightorange"
     android:layout_height="match_parent"
+    android:background="@color/lightorange"
     tools:context="com.example.android.absholistic.Food.FoodActivity">
 
+    <TextView
+        android:id="@+id/weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Weight (lbs)"
+        android:textSize="20dp" />
 
 
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/weight" />
+
+    <TextView
+        android:id="@id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/weight"
+        android:text="Date"
+        android:textSize="20dp" />
+
+    <TextView
+        android:textSize="20dp"
+        android:text="Progress Photo"
+        android:layout_below="@+id/date"
+        android:id="@+id/progressphoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
 </RelativeLayout>

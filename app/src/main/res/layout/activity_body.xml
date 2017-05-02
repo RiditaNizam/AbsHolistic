@@ -21,12 +21,18 @@
         android:layout_toRightOf="@id/weight" />
 
     <TextView
-        android:id="@id/date"
+        android:id="@+id/date"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/weight"
         android:text="Date"
         android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/et_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/date" />
 
     <TextView
         android:textSize="20dp"

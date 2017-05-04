@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/lightorange"
-    tools:context="com.example.android.absholistic.Food.FoodActivity">
+    tools:context="com.example.android.absholistic.Body.BodyActivity">
 
     <TextView
         android:id="@+id/weight"

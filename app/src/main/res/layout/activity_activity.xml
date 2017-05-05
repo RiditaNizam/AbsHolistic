@@ -13,7 +13,7 @@
         android:background="@drawable/activitybutton"
         android:onClick="sendMessage"
         android:padding="15dp"
-        android:text="Reminders" />
+        android:text="@string/reminders" />
 
     <Button
         android:id="@+id/planner"

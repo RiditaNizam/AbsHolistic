@@ -31,7 +31,8 @@
         <activity android:name=".Fat.FatActivity" />
         <activity android:name=".Fitness.FitnessActivity" />
         <activity android:name=".Weight.WeightActivity" />
-        <activity android:name=".Food.Supplements"></activity>
+        <activity android:name=".Food.Supplements" />
+        <activity android:name=".Food.MealIdeas"></activity>
     </application>
 
 </manifest>

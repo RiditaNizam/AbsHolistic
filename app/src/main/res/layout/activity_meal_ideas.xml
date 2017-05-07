@@ -7,59 +7,64 @@
     tools:context="com.example.android.absholistic.Food.FoodActivity">
 
     <Button
-        android:id="@+id/mealideas"
+        android:id="@+id/breakfast"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:background="@drawable/foodbutton"
         android:onClick="sendMessage"
         android:padding="15dp"
-        android:text="Meal Ideas" />
+        android:text="Breakfast" />
 
     <Button
-        android:id="@+id/grocerylist"
+        android:id="@+id/brunch"
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:layout_below="@+id/mealreminders"
+        android:layout_toRightOf="@+id/breakfast"
         android:background="@drawable/foodbutton"
+        android:onClick="sendMessage"
         android:padding="15dp"
-        android:text="Grocery List" />
+        android:text="Brunch" />
 
     <Button
-        android:id="@+id/foodordering"
+        android:id="@+id/lunch"
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:layout_alignParentRight="true"
+        android:layout_below="@+id/breakfast"
         android:background="@drawable/foodbutton"
+        android:onClick="sendMessage"
         android:padding="15dp"
-        android:text="Food Ordering" />
+        android:text="Lunch" />
 
     <Button
-        android:id="@+id/mealreminders"
+        android:id="@+id/snack"
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:layout_below="@+id/foodordering"
+        android:layout_below="@id/brunch"
+        android:layout_toRightOf="@+id/lunch"
         android:background="@drawable/foodbutton"
+        android:onClick="sendMessage"
         android:padding="15dp"
-        android:text="Meal Reminders" />
+        android:text="Snack" />
 
     <Button
-        android:id="@+id/restaurantmenusuggest"
+        android:id="@+id/dinner"
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:layout_alignParentRight="true"
-        android:layout_below="@+id/foodordering"
+        android:layout_below="@id/lunch"
         android:background="@drawable/foodbutton"
+        android:onClick="sendMessage"
         android:padding="15dp"
-        android:text="Restaurant and Menu Suggestions" />
+        android:text="Dinner" />
 
     <Button
-        android:id="@+id/supplements"
+        android:id="@+id/dessert"
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:layout_below="@+id/restaurantmenusuggest"
-        android:layout_alignParentRight="true"
+        android:layout_below="@id/snack"
+        android:layout_toRightOf="@+id/dinner"
         android:background="@drawable/foodbutton"
+        android:onClick="sendMessage"
         android:padding="15dp"
-        android:text="Supplements" />
+        android:text="Dessert" />
 
 </RelativeLayout>

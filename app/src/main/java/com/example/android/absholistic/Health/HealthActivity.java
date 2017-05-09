@@ -25,7 +25,6 @@ public class HealthActivity extends Activity {
         Book mainBook = new Book();
         mainBook.setTitle("I will be a great programmer");
         list.add(mainBook);
-     
 
         //TODO: make network request and get list of data.
 
@@ -36,9 +35,7 @@ public class HealthActivity extends Activity {
 
         bookListView.setAdapter(adapter);
 
-
-        //Todo: once you receive data update your adapter and notify datasetchanged.
-
+        //TODO: once you receive data update your adapter and notify data set changed.
 
     }
 

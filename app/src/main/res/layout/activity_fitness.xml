@@ -7,12 +7,12 @@
     tools:context="com.example.android.absholistic.Fitness.FitnessActivity">
 
     <Button
-        android:id="@+id/fitnessclasses"
+        android:id="@+id/fitnessevents"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:background="@drawable/fitnessbutton"
         android:onClick="sendMessage"
         android:padding="15dp"
-        android:text="Local Classes" />
+        android:text="Local Events" />
 
 </android.support.constraint.ConstraintLayout>

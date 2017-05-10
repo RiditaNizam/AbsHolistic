@@ -64,4 +64,53 @@
         android:layout_below="@+id/pump"
         android:text="7. Make it a game" />
 
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/game"
+        android:text="8. Hold yourself to a time commitment" />
+
+    <TextView
+        android:id="@+id/reward"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/time"
+        android:text="9. Create a reward system" />
+
+    <TextView
+        android:id="@+id/dontdown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/reward"
+        android:text="10. Don't get down on yourself" />
+
+    <TextView
+        android:id="@+id/missed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dontdown"
+        android:text="11. Don't let a missed workout spell the end" />
+
+    <TextView
+        android:id="@+id/original"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/missed"
+        android:text="12. Go back over your original set of goals" />
+
+    <TextView
+        android:id="@+id/lifelong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/original"
+        android:text="13. Think of exercise as a lifelong habit" />
+
+    <TextView
+        android:id="@+id/discouraged"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lifelong"
+        android:text="14. Don't get discouraged" />
+
 </RelativeLayout>

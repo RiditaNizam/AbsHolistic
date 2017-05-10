@@ -1,9 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.android.absholistic.Energy.EnergyActivity">
+    android:background="@color/darkblue"
+    tools:context="com.example.android.absholistic.Food.FoodActivity">
 
-</android.support.constraint.ConstraintLayout>
+    <TextView
+        android:id="@+id/barrierbusters"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Barrier Busters"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/decide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/barrierbusters"
+        android:text="1. Decide on your goals" />
+
+    <TextView
+        android:id="@+id/enjoy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/decide"
+        android:text="2. Learn to enjoy the feeling of exercise" />
+
+    <TextView
+        android:id="@+id/focus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/enjoy"
+        android:text="3. Focus on the challenge" />
+
+    <TextView
+        android:id="@+id/fun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/focus"
+        android:text="4. Have fun with your friends" />
+
+    <TextView
+        android:id="@+id/trainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fun"
+        android:text="5. Hire a personal trainer to work with you" />
+
+    <TextView
+        android:id="@+id/pump"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/trainer"
+        android:text="6. Pump up your energy" />
+
+    <TextView
+        android:id="@+id/game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pump"
+        android:text="7. Make it a game" />
+
+</RelativeLayout>
